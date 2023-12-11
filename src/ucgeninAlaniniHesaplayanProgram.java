@@ -16,7 +16,7 @@ public class ucgeninAlaniniHesaplayanProgram {
         c= sc.nextInt();
         //formullari olusturdum
         uFormulu=(a+b+c)/2;
-        ucgeninCevresi=2*uFormulu;
+        ucgeninCevresi=2*uFormulu; 
         // Math kutuphanesinin sqrt methodu ile formulun sonucununun karekokunu aldim
         alan=Math.sqrt(uFormulu * (uFormulu-a)* (uFormulu-b)*(uFormulu-c));
 
